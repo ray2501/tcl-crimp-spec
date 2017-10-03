@@ -1,0 +1,11 @@
+--- plot.tcl.orig	2017-10-03 20:01:46.886628523 +0800
++++ plot.tcl	2017-10-03 20:01:58.878642177 +0800
+@@ -7,7 +7,7 @@
+ package require Tcl 8.5
+ package require Tk
+ package require snit          ; # Tcllib
+-package require Plotchart 1.9 ; # Tklib
++package require Plotchart     ; # Tklib
+ 
+ # # ## ### ##### ######## ############# #####################
+ ## Implementation
